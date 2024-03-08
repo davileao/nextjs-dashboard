@@ -22,14 +22,9 @@
         "name": "next"
       }
     ],
-    "baseUrl": "",
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "app/*": [
-        "app/*"
-      ]
+      "@/app/*": ["app/*"]
     }
   },
   "include": [
